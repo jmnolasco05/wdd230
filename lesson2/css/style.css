@@ -1,7 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Sora:wght@300&display=swap");
+
 body {
   font-size: 18px;
   line-height: 1.5;
   background-color: #f5f5dc;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Sora", sans-serif;
+}
+
+p {
+  font-family: "Hahmlet", serif;
 }
 
 header,
@@ -56,7 +68,7 @@ footer {
   }
 
   main section:nth-child(3) {
-    grid-column: span;
+    grid-column: span 2;
   }
 
   .screenshot {
